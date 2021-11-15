@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import "./nav.scss";
+import React, { Component } from 'react';
+import './Nav.scss';
 
 export class Nav extends Component {
   render() {

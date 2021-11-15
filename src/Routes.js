@@ -1,9 +1,9 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Nav from "../src/components/Nav/Nav";
-import Main from "./pages/Main/Main";
-import DetailPage from "./pages/DetailPage/DetailPage";
-import Cart from "./pages/Cart/Cart";
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Nav from '../src/components/Nav/Nav';
+import Main from './pages/Main/Main';
+import DetailPage from './pages/DetailPage/DetailPage';
+import Cart from './pages/Cart/Cart';
 
 class Routes extends React.Component {
   render() {

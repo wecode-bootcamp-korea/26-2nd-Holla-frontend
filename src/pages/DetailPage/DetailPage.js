@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import "./DetailPage.scss";
+import React, { Component } from 'react';
+import './DetailPage.scss';
 
 export class DetailPage extends Component {
   render() {
