@@ -1,0 +1,7 @@
+$mainColor: #00c73c;
+
+@mixin felxCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
