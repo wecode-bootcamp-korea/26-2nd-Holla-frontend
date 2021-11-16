@@ -1,0 +1,86 @@
+@import '../../styles/variables.scss';
+
+@font-face {
+  font-family: 'Jal_Onuel';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Onuel.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+  height: 150px;
+  margin: 0 auto;
+  padding-top: 50px;
+  border-bottom: 1px solid #00c73c;
+  // background-color: linen;
+
+  // .navContainer {
+  // display: flex;
+  // justify-content: space-evenly;
+
+  .navHamberger {
+    font-size: 30px;
+    color: #00c73c;
+    margin-left: 10px;
+  }
+  .navLeft {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    .userInfo {
+      padding: 7px 0;
+      .userName {
+        margin-left: 30px;
+        margin-right: 15px;
+      }
+
+      .userGrade {
+        border: 1px solid #00c73c;
+        border-radius: 8px;
+        padding: 5px;
+        font-size: 14px;
+      }
+    }
+  }
+  .logoName {
+    font-family: 'Jal_Onuel';
+    color: #00c73c;
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .navRight {
+    display: inline;
+
+    .cartIcon {
+      margin-right: 15px;
+      font-size: 30px;
+      font-weight: 200;
+      float: left;
+    }
+
+    .navSearchBar {
+      display: inline;
+      position: relative;
+
+      input {
+        width: 260px;
+        padding: 12px 10px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+      }
+
+      .searchIcon {
+        position: absolute;
+        right: 10px;
+        top: 1px;
+        color: #00c73c;
+      }
+    }
+  }
+  // }
+}
