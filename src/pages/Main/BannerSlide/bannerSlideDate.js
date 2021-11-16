@@ -1,0 +1,33 @@
+export const BANNERIMG = [
+  {
+    image:
+      'https://cdn.pixabay.com/photo/2018/03/19/18/20/tea-time-3240766__340.jpg',
+  },
+  {
+    image:
+      'https://cdn.pixabay.com/photo/2015/12/05/08/25/fairy-tale-1077863__340.jpg',
+  },
+  {
+    image:
+      'https://cdn.pixabay.com/photo/2018/03/19/18/20/tea-time-3240766__340.jpg',
+  },
+  {
+    image: 'https://cdn.pixabay.com/photo/2014/04/05/13/05/boy-317041__340.jpg',
+  },
+  {
+    image:
+      'https://cdn.pixabay.com/photo/2016/03/27/18/31/book-1283468__340.jpg',
+  },
+  {
+    image:
+      'https://cdn.pixabay.com/photo/2016/11/21/16/09/bible-1846174__340.jpg',
+  },
+  {
+    image:
+      'https://cdn.pixabay.com/photo/2016/11/29/13/52/book-1870000__340.jpg',
+  },
+  {
+    image:
+      'https://cdn.pixabay.com/photo/2018/01/18/20/43/literature-3091212__340.jpg',
+  },
+];
