@@ -1,0 +1,79 @@
+@import '../../styles/variables.scss';
+
+@font-face {
+  font-family: 'Jal_Onuel';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Onuel.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  height: 160px;
+  margin: 0 auto;
+  padding-top: 50px;
+  z-index: 10;
+  border-bottom: 40px solid $mainColor;
+
+  .navLeft {
+    display: flex;
+    justify-content: space-between;
+
+    .navHamberger {
+      margin-right: 40px;
+      font-size: 40px;
+      color: $mainColor;
+      cursor: pointer;
+    }
+
+    .userName {
+      padding: 10px 0;
+      font-size: 16px;
+    }
+  }
+
+  .logoName {
+    color: $mainColor;
+    font-family: 'Jal_Onuel';
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .navRight {
+    display: inline;
+
+    .cartIcon {
+      margin-right: 15px;
+      float: left;
+      font-size: 30px;
+      font-weight: 200;
+    }
+
+    .navSearchBar {
+      display: inline;
+      position: relative;
+
+      input {
+        width: 260px;
+        padding: 12px 10px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+      }
+
+      .searchIcon {
+        position: absolute;
+        right: 10px;
+        top: 1px;
+        color: $mainColor;
+      }
+    }
+  }
+}
+
+.burgerMenu {
+  position: relative;
+  z-index: 100;
+}
