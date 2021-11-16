@@ -1,4 +1,4 @@
-const BASE_URL = "";
+const BASE_URL = '';
 export const API = {
   login: `${BASE_URL}/users/login`,
   register: `${BASE_URL}/users/signup`,
