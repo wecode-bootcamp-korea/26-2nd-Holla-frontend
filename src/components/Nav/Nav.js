@@ -1,9 +1,12 @@
 /* eslint-disable */
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
 import NavMenu from '../NavMenu/NavMenu';
 import { HiViewList } from 'react-icons/hi';
 import { BsBag } from 'react-icons/bs';
 import { GoSearch } from 'react-icons/go';
+import Cart from '../../pages/Cart/Cart';
+import { Route, Link } from 'react-router-dom';
 import './Nav.scss';
 
 export class Nav extends Component {
@@ -53,6 +56,7 @@ export class Nav extends Component {
               this.setState({
                 isOpened: false,
               });
+              this.props.history.push('/');
             } else {
               alert('다시 시도해주세요!');
             }
@@ -80,6 +84,7 @@ export class Nav extends Component {
       this.setState({
         isOpened: false,
       });
+      this.props.history.push('/');
     });
   };
 
@@ -105,7 +110,9 @@ export class Nav extends Component {
           </div>
           <span className="logoName">홀라</span>
           <div className="navRight">
-            {isLogined && <BsBag className="cartIcon" />}
+            <Link to="/Cart">
+              {isLogined && <BsBag className="cartIcon" />}
+            </Link>
             <div className="navSearchBar">
               <input type="text" placeholder="키워드 혹은 강사/저자를 입력" />
               <GoSearch className="searchIcon" />
@@ -128,4 +135,4 @@ export class Nav extends Component {
   }
 }
 
-export default Nav;
+export default withRouter(Nav);

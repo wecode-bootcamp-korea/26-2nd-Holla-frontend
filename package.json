@@ -18,6 +18,9 @@
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
     "react-slide": "^0.3.0",
+    "react-spring-3d-carousel": "^1.2.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^6.8.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

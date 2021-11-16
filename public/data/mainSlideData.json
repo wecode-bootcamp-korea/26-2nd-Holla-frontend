@@ -1,0 +1,138 @@
+{
+  "results": {
+    "recommend_books": [
+      {
+        "id": 1,
+        "product_images": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGJvb2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "intro": "우유와 꿀!"
+      },
+      {
+        "id": 2,
+        "product_images": "https://i.ibb.co/8MqFDS0/image.png",
+        "intro": "송이의 정상에 오르기!"
+      },
+      {
+        "id": 3,
+        "product_images": "https://i.ibb.co/bK63c7p/1.png",
+        "intro": "커피 중독자들 여기 모여라!"
+      },
+      {
+        "id": 4,
+        "product_images": "https://i.ibb.co/C1tspC7/2.png",
+        "intro": "비즈니스의 A-Z!!"
+      },
+      {
+        "id": 5,
+        "product_images": "https://i.ibb.co/Y3CN0cn/3.png",
+        "intro": "패셔니스타들 여기 모여라!"
+      },
+      {
+        "id": 6,
+        "product_images": "https://i.ibb.co/7Gxy24Y/4.png",
+        "intro": "감성을 자극하는 책!"
+      },
+      {
+        "id": 7,
+        "product_images": "https://i.ibb.co/3Bmdftm/5.png",
+        "intro": "단순한 삶을 살아라"
+      },
+      {
+        "id": 8,
+        "product_images": "https://i.ibb.co/YDvWtWq/6.png",
+        "intro": "달빛 소녀와 딸기 소년"
+      },
+      {
+        "id": 9,
+        "product_images": "https://i.ibb.co/StZ6rBg/7.png",
+        "intro": "지우의 학교에서 살아남기!"
+      },
+      {
+        "id": 10,
+        "product_images": "https://i.ibb.co/8NJKzYz/8.png",
+        "intro": "바다의 추억속으로,,,,"
+      }
+    ],
+    "realtime_reviews": [
+      {
+        "id": 11,
+        "product_images": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "text": "토지는 오디오북이 최고네요.",
+        "name": "유병문"
+      },
+      {
+        "id": 12,
+        "product_images": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "text": "토지는 오디오북이 최고네요.",
+        "name": "유병문"
+      },
+      {
+        "id": 13,
+        "product_images": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "text": "토지는 오디오북이 최고네요.",
+        "name": "유병문"
+      },
+      {
+        "id": 14,
+        "product_images": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "text": "토지는 오디오북이 최고네요.",
+        "name": "유병문"
+      },
+      {
+        "id": 15,
+        "product_images": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "text": "토지는 오디오북이 최고네요.",
+        "name": "유병문"
+      },
+      {
+        "id": 16,
+        "product_images": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "text": "토지는 오디오북이 최고네요.",
+        "name": "유병문"
+      },
+      {
+        "id": 17,
+        "product_images": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "text": "토지는 오디오북이 최고네요.",
+        "name": "유병문"
+      },
+      {
+        "id": 18,
+        "product_images": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "text": "토지는 오디오북이 최고네요.",
+        "name": "유병문"
+      },
+      {
+        "id": 19,
+        "product_images": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "text": "토지는 오디오북이 최고네요.",
+        "name": "유병문"
+      }
+    ],
+    "book_of_the_month": [
+      {
+        "id": 20,
+        "date": "2021.11.18",
+        "product_url": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "title": "눈보라 체이스",
+        "author": "게일 가젤",
+        "author_image": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 21,
+        "date": "2021.11.18",
+        "product_url": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "title": "눈보라 체이스",
+        "author": "게일 가젤",
+        "author_image": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 22,
+        "date": "2021.11.18",
+        "product_url": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "title": "눈보라 체이스",
+        "author": "게일 가젤",
+        "author_image": "https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      }
+    ]
+  }
+}

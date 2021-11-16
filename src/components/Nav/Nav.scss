@@ -11,9 +11,10 @@
 .navWrapper {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  width: 1180px;
   height: 160px;
   margin: 0 auto;
+  margin-bottom: 0.7rem;
   padding-top: 50px;
   z-index: 10;
   border-bottom: 40px solid $mainColor;
@@ -48,8 +49,11 @@
     .cartIcon {
       margin-right: 15px;
       float: left;
+      margin-top: 4px;
       font-size: 30px;
       font-weight: 200;
+      color: black;
+      cursor: pointer;
     }
 
     .navSearchBar {
