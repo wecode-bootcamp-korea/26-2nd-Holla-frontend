@@ -1,0 +1,14 @@
+@import '/src/styles/variables.scss';
+
+.countBtn,
+.cardBtn {
+  font-size: 20px;
+  width: 250px;
+  height: 50px;
+  margin-right: 20px;
+  background-color: white;
+  border-color: #e6e1e1;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+}

@@ -1,0 +1,117 @@
+@import '/src/styles/variables.scss';
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 40px;
+
+  .cartContainer {
+    align-items: center;
+    position: relative;
+    width: 960px;
+
+    .productListTitle {
+      align-items: flex-start;
+      height: 65px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .deleteBtn {
+      position: absolute;
+      top: 0px;
+      right: 1px;
+
+      button {
+        width: 100px;
+        height: 25px;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(204, 202, 202);
+      }
+
+      .allDeletBtn {
+        margin-right: 11px;
+        cursor: pointer;
+      }
+
+      .goDeletBtn {
+        cursor: pointer;
+      }
+    }
+
+    .cartEmptyBox {
+      padding: 60px;
+      width: 960px;
+      height: 210px;
+      text-align: center;
+      background-color: #f9f9f9;
+      font-size: 15px;
+      position: relative;
+
+      .cartEmptyBoxText {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        infoMarkImg {
+          width: 35px;
+          margin-bottom: 20px;
+          color: rgb(204, 202, 202);
+        }
+
+        cartEmptyText {
+          color: rgb(100, 99, 99);
+        }
+      }
+    }
+
+    .CartPaymentForms {
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      .paymentText {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .starMark {
+        color: red;
+        margin-left: 10px;
+      }
+    }
+
+    .noticeText {
+      margin-top: 30px;
+      margin-bottom: 40px;
+      font-size: 13px;
+
+      .adioText {
+        margin-bottom: 10px;
+      }
+    }
+
+    .buyButton {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 100px;
+
+      .buyBtn {
+        width: 322px;
+        height: 50px;
+        border-style: none;
+        background-color: rgb(204, 202, 202);
+        font-size: 19px;
+        color: white;
+
+        .buyBtn:hover {
+          background-color: chocolate;
+        }
+      }
+    }
+  }
+}
