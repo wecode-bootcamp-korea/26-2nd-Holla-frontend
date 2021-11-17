@@ -1,0 +1,54 @@
+@import '/src/styles/variables.scss';
+$width: 960px;
+
+.cartTotalBook {
+  display: flex;
+  width: $width;
+  height: 75px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #f9f9f9;
+  position: relative;
+  align-items: center;
+
+  .buyListText {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 60px;
+  }
+
+  .buyRightText {
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 700px;
+  }
+}
+
+.cartTotalpay {
+  display: flex;
+  width: $width;
+  height: 75px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #f9f9f9;
+  position: relative;
+  align-items: center;
+
+  .payListText {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 60px;
+  }
+
+  .payRightText {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 700px;
+  }
+}

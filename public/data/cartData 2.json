@@ -1,0 +1,46 @@
+{
+  "cart_items": [
+    {
+      "product_id": 1,
+      "user_id": 1,
+      "product_list": {
+        "product_title": "100가지 장소의 보금자리",
+        "product_image_url": "https://lh3.googleusercontent.com/fife/AAWUweUg7ZClpLQM5hB-gEW8AsheivAeT7aGa6iVNfMxsV8OkUji2jEf00668Can9WRiO8itPbioNenrdq6udUXG2UlldqD1pdaxps9lor4Jac90jWctVtrWZE6ZOaHecDFXEDYWJp5602eH56oCHBykmcxtEtv_tpXiRaiOkjBVbdWAqfVymu16KBLupsc6VhFooQXnDnlkiaw-WXQdZTDGN9sf9hB168TSygtVgZXVNIKSBfOons4hSs-nxbz-zC-gHW_KFm3SX4bX9aY__Il0VBx3QsXrT0Al_ftAEUR46K2nVKXdZUzPO72iUWg5KRJBccUSd6jcEA_g4V_vHZlwvm4Qw3qkJtF7CmiE4_9a_KaOSt4EPpdRIoD5EKR7v4Psi-KJ16XVJUHck3eVKcGUY1zO-IireZUpfy2T6p5zpwg-xwCiC20NVONcHaWChMlAcvg82iMw0OHUxgBRCk_MvG1nkIiixiHLvU9ItOs7ImkUcMB0rr9m1hHe0y0g1FBML8E6-EeXgtbDeOGOyKsHy_iDWuRZLSMtDuAvw1dIphibaLGzZM1UlbXBzLdqEVfWEJzBuhiPwq-CNLgoSecYEPfF9V3I9ii4FV4DxzKPx7AWvGL-XGnJ_FniSl9P6AjVRONiEW8Hgkx2mwRdBB2Qj6CYl6alKx_RMMOGugBqR9FOObeLOluskl2Tup9A-o9poW66pVKZRCMYD48b_xxs1v90fQD90CA1_aY=w200-h190-p-k-nu-ft",
+        "product_price": 5800,
+        "author_name": "이태훈"
+      }
+    },
+    {
+      "product_id": 2,
+      "user_id": 1,
+      "product_list": {
+        "product_title": "Merry me",
+        "product_image_url": "https://lh3.googleusercontent.com/fife/AAWUweXnO8toJnefbaJU1fK_FuUfA7rXEHz0hEkvab8ZQ-HNfnkWJTOXRHw4WinPL5Y0QeOJ5qqQgj1wawETrh11cdR5gDHWpVH8jxokCcFoU0-zjqIZBKwKuYqB22YdGDdmB7AQFUw01Y8j8HflnG_ZdkOf2ugzgLvbbmVP2xMRqs3ksHjRIzKqw6tWKV5gFg6VtD6UHgzQ0vy3YmTNOYFusPlbr3HwSEdW8RpBJrlbWCwzkTUCpepG84OzH9IlMBapU23o1YqwrUOLqW-RAKnPgLQBFlO5skasprb4tcdfQAZoNcaHmIYJbI-avj2oNelGiuAyyLCrHGhVSL2BY8lO3OLEVU5qPmWdYTPK-5euG6yzr8NAdc3_3upyMuHZ_7VWv9QKG-YbvckLZ1gU4gaXRjCHElT8qlBHros0qrISsJEoyfE1wpB3zNRtlhQrAX0wNBpy3rwQmHCmFNdXrhIJo02Aqbm8TH1-6qX36Og69QJCbOw3xFmLKlXodVX2Gr5uo0z2I9YCoo5xTswblygC6mJw8zQUqdYxEMH0u1ODx42p1_4cNH6OhMHJ0k1yg3W9wOZPqGE33x1cmK3K4YJ44VvylSycI4F3uPJNPQz-EOdb8txunTJ_8Rz3L9It7PODxegP4jQ9FuEgHDI1gQaBf1elo80EDKqRhpku2sV_Y7wHpbi0ZEwdJoD3OeB2HVePd7yCifji3DWHfDmP2ZbjsjHuGkoxWfNdrFo=w200-h190-p-k-nu-ft",
+        "product_price": 19000,
+        "author_name": "민송이"
+      }
+    },
+    {
+      "product_id": 3,
+      "user_id": 1,
+      "product_list": {
+        "product_title": "단순한 삶을 살면서",
+        "product_image_url": "https://lh3.googleusercontent.com/fife/AAWUweUw7gH44omTikn2EBp8FA8aLuSze3IdyzLk0Rbx9fQPfWs5RCJRKp6wn8sQi-7BRAPrB_wi-9nBMA18sIMqx8TAm9iVm3hTs2y5eTkk9wf5tI83_V4trtR1vHhfA7-bXDlQFqvsn4WxOOotgBxLma15e2IVFX3tnmMUHVMIJBomlSYjv03kvzR5xUIKZx6oDqdTWLiRCSAe-iCoHoeeiWEaYnlhXD1CvI_JqUNJmkWpSftc8SiZ9L86DfMY-HUWYhzWHUfHtiuZPCijKyuj5MNBymoHgXB2dUghG551DD-7VTboyHK-ox0XHVo05jXA9Dd0NB7Pm3_j6efAGwvh-qhyTd6hmM8vWc_pJg3a1edQWVfeawQWXpNnavqVc2PNOZCLqL6DzmBZys_P96XGUv0poqT0ke9sOvihK278ATG6vf2SVhSRnscrJOgv97_0VZo7oZFAanazYKvfnrVj1W1mcSEsfET9pDfJ-gElCErs_ZtzglAphtypBGln_JkIz_VS_3U_N9iSLmTIe1h0LOuWIMqLHy5KBUuyc7_9qpU86pQZ9bxjHHpHtnlHynBpVFMSCJd8RGsRHwv-m07tJCEjV6scW0hWcoMx3c_Y4vgzolXKj4Ojwxz4sMAIIGBwFBxqX9-B6-a_Uo4AwOEv-eITXUoWULLNfNTklualSh4J3L49VUs6bxhlfhr7fkwMcaPrX31UkalFdQ2394dbpeLnUms7unjgpNo=w200-h190-p-k-nu-ft",
+        "product_price": 12000,
+        "author_name": "하유진"
+      }
+    },
+    {
+      "product_id": 7,
+      "user_id": 1,
+      "product_list": {
+        "product_title": "별들이 겹치는 순간",
+        "product_image_url": "https://lh3.googleusercontent.com/fife/AAWUweVZUoEpwQOdTPwN_cWVsM-LCkx_8qHvtt3Tp39GZeGkTykm8e6_itkPi7pyfoznv6Rw_r8nbI99T-DegS3RpBi6yrkDglNqAy_E5kh3QNU6ZpFI5v8Ofzc8D8CZijOlCVXcGGo-EYjeag0cEI4LRgmaEz4D9Hqg9yKITS-T3RAVHZDJUZdocDF8gUs5YRmFumzUWCIi17dmt1vUQlf-XvzbisV30r49XRHsO9TRG6NZskohwsKv25lVYkrqloylJS9zsNF9b9ocDBgsSd-XZtEETEcoJ3rawlZdfHyGLLrIF5iKdVgjz9UTYjWttHajB3Bf5ALCvRnzwZN5yvwC1kIhAqccHfvsfASMn9iR-ia_vMOzBr2v9ptto5uvNBVrPtt22DEtsPMcT0L-KBZ0Tie3wYuzF-yIfLpjrKyJK6BJBY7MeYuRmDEIqidKrqMnJBCwlHsqk6nQs2juoMIAZlwLDncF3hHXIFCqj_w6sNbbj-_hZOzATnxSFt9L3BjIyenjE_Mt_z5u7FnwSmbCyOZl9Qz28CrL33k5vYXf6mwPF2ur0eS5KAoDTz84QzSp1E9kAtuuVNucDPa6y7RXw5V4u0wr1yvItffjOuBNYEZzGdGGpfQp7ldqk5CHtAhblBQqw3mD528rldM63nhK3pD5k2yrR0T_HisXfA6Nlj3o6q-4zEUN6UFvQY0fujFG1z37EM-aY7bpxQzcjrs_CQgEjVru6JRt-Qs=w200-h190-p-k-nu-ft",
+        "product_price": 12900,
+        "author_name": "이수진"
+      }
+    }
+  ],
+  "total_product_price": 49700,
+  "total_product": 4
+}
