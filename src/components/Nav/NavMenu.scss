@@ -5,16 +5,75 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'HeirofLightBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 .menuList {
   width: 400px;
-  height: 1000px;
-  background-color: honeydew;
+  // background-color: honeydew;
 
   .exitButton {
-    top: 20px;
-    right: 20px;
-    background-color: lightpink;
-    font-size: 45px;
+    margin: 30px auto 40px 320px;
+    background-color: white;
+    font-size: 40px;
+    border: none;
     color: #999fa8;
+    cursor: pointer;
+  }
+
+  .loginContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100px;
+
+    .loginButton {
+      width: 200px;
+      height: 45px;
+      border: none;
+      font-family: 'Jal_Onuel';
+      background-color: #ffe812;
+      letter-spacing: 0.05em;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .kakaoIcon {
+      position: absolute;
+      left: 115px;
+      top: 9px;
+      font-size: 22px;
+    }
+  }
+
+  .imgContainer {
+    position: relative;
+    img {
+      width: 400px;
+    }
+    .imgCenter {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      width: 85%;
+      height: 270px;
+      background-color: black;
+      border-radius: 5px;
+      box-shadow: (3px 3px 3px 2px);
+      opacity: 0.4;
+      .saying {
+        font-size: 25px;
+        color: white;
+        font-family: 'HeirofLightBold';
+        font-style: italic;
+        text-align: center;
+        line-height: 33px;
+      }
+    }
   }
 }
