@@ -1,0 +1,37 @@
+.DetailIntro {
+  padding-top: 60px;
+  border-bottom: 1px solid lightgray;
+
+  .introTitle {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -2px;
+  }
+
+  .introInfo {
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .authorProfile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .profileImg {
+      width: 75px;
+      height: 75px;
+      border: 1px solid #00c73c;
+      border-radius: 50%;
+    }
+
+    .authorName {
+      width: 100%;
+      padding-left: 12px;
+      margin: 20px 0;
+      font-size: 16px;
+    }
+  }
+}
