@@ -26,7 +26,7 @@ export class Main extends Component {
     const token = localStorage.getItem('access_token');
 
     token &&
-      fetch('http://10.58.1.229:8000', {
+      fetch('http://10.58.6.179:8000', {
         headers: {
           Authorization: token,
         },

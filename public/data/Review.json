@@ -1,0 +1,14 @@
+{
+  "result": {
+    "total_reviews": 1,
+    "avg_rating": 3.0,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "이수경",
+        "date": "2021.11.24 02:11",
+        "text": "멋진 책이에요"
+      }
+    ]
+  }
+}

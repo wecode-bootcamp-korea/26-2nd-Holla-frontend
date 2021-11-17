@@ -1,0 +1,63 @@
+.goToCartWrapper {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 100;
+
+  .goToCart {
+    padding-bottom: 10px;
+    background-color: white;
+    text-align: center;
+    z-index: 10;
+
+    .modalTitle {
+      border-bottom: 1px solid lightgray;
+      font-size: 17px;
+      font-weight: bold;
+      line-height: 50px;
+    }
+
+    .modalCommentWrapper {
+      font-size: 16px;
+      padding: 0 30px;
+      margin: 25px 0;
+
+      .modalComment {
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+    }
+
+    .modalButton {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      width: 300px;
+      padding: 0 7px;
+
+      .cancleButton {
+        width: 140px;
+        height: 45px;
+        border: none;
+        background-color: #e0e0e0;
+        cursor: pointer;
+      }
+
+      .confirmButton {
+        width: 140px;
+        height: 45px;
+        border: none;
+        background-color: #00c73c;
+        cursor: pointer;
+      }
+    }
+  }
+}

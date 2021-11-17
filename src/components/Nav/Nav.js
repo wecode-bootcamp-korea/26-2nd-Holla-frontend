@@ -42,7 +42,7 @@ export class Nav extends Component {
     const { Kakao } = window;
     Kakao.Auth.login({
       success: response => {
-        fetch('http://10.58.1.229:8000/users/kakao/signin', {
+        fetch('http://10.58.6.179:8000/users/kakao/signin', {
           headers: {
             Authorization: response.access_token,
           },
