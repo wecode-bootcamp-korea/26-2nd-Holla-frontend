@@ -4,6 +4,7 @@ import Nav from '../src/components/Nav/Nav';
 import Main from './pages/Main/Main';
 import DetailPage from './pages/DetailPage/DetailPage';
 import Cart from './pages/Cart/Cart';
+import Footer from './components/Footer/Footer';
 
 class Routes extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class Routes extends React.Component {
           <Route exact path="/DetailPage" component={DetailPage} />
           <Route exact path="/Cart" component={Cart} />
         </Switch>
+        <Footer />
       </Router>
     );
   }

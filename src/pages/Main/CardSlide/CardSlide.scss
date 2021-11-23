@@ -1,0 +1,49 @@
+.CardSlideContainer {
+  width: 1180px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+
+  .inner {
+    .card {
+      width: 500px;
+      height: 500px;
+      background-color: aqua;
+      display: flex;
+      justify-content: space-between;
+
+      .cardLeft {
+        width: 200px;
+
+        .cardImg {
+          width: 180px;
+          height: 250px;
+        }
+
+        .bookTitle {
+          margin-top: 15px;
+        }
+
+        .cardLeftDown {
+          display: flex;
+        }
+      }
+
+      .cardRight {
+        width: 200px;
+
+        .cardImg {
+          width: 180px;
+          height: 250px;
+        }
+
+        .bookTitle {
+          margin-top: 15px;
+        }
+
+        .cardLeftDown {
+          display: flex;
+        }
+      }
+    }
+  }
+}
