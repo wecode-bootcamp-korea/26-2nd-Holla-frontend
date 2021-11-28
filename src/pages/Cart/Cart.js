@@ -3,6 +3,7 @@ import CartList from './CartList/CartList';
 import CartTotal from './CartTotal/CartTotal';
 import CartCheck from './CartCheck/CartCheck';
 import CartPayment from './CartPayment/CartPayment';
+import { API } from '../../config';
 import './Cart.scss';
 
 export class Cart extends Component {
@@ -35,7 +36,7 @@ export class Cart extends Component {
   };
 
   getCartData = () => {
-    fetch('http://10.58.6.179:8000/orders', {
+    fetch(`${API.cart}`, {
       method: 'GET',
       headers: { Authorization: localStorage.getItem('access_token') },
     })
@@ -153,7 +154,7 @@ export class Cart extends Component {
               오디오북과 클래스는 한 번에 결제 할 수 없습니다.
             </li>
             <li className="csText">
-              - 결제 문의는 [마이윌라 {'>'} 1:1문의]를 이용해주세요.
+              - 결제 문의는 [마이홀라 {'>'} 1:1문의]를 이용해주세요.
             </li>
           </ul>
           <div className="buyButton">
