@@ -1,6 +1,6 @@
 ## Holla Project
 
-[데모 영상]
+[데모 영상](https://drive.google.com/file/d/1cyr36Kzg7oCAnu9PDOkxqsgpfwihB3Zt/view?usp=sharing)
 
 ### [팀명] : Holla (홀라)
 
