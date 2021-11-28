@@ -11,7 +11,7 @@ export class CartCheck extends Component {
             <a href="." className="necessaryServiceLink">
               [필수]
             </a>
-            윌라
+            홀라
             <a href=".">유료서비스 이용약관</a> 및
             <a href="."> 개인정보 수집 및 이용</a>에 동의합니다.
           </label>

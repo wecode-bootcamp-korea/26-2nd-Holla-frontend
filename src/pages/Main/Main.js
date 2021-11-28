@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import BannerSlide from './BannerSlide/BannerSlide';
 import CommonSlide from './CommonSlide/CommonSlide';
+import { API } from '../../config';
 import './Main.scss';
 
 export class Main extends Component {
@@ -26,7 +27,7 @@ export class Main extends Component {
     const token = localStorage.getItem('access_token');
 
     token &&
-      fetch('http://10.58.6.179:8000', {
+      fetch(API.baseURL, {
         headers: {
           Authorization: token,
         },
@@ -49,12 +50,11 @@ export class Main extends Component {
   render() {
     const { recommendedBooks, realTimeReview, monthBooks, userInfo } =
       this.state;
-
     return (
       <main>
         <BannerSlide />
         <CommonSlide
-          title="이 달의 도서 추천북!!"
+          title="이 달의 도서 추천 오디오북!!"
           settings={RECOMMENT_SETTING}
           slideData={monthBooks}
           containerName="recommendSlideContainer"
@@ -71,7 +71,7 @@ export class Main extends Component {
               userInfo={userInfo}
             />
             <CommonSlide
-              title="윌라 실시간 한줄 감상평"
+              title="홀라 실시간 한줄 감상평"
               settings={REAL_TIME_SETTING}
               slideData={realTimeReview}
               containerName="realTimeSlideContainer"
@@ -100,5 +100,5 @@ const REAL_TIME_SETTING = {
   slidesToScroll: 3,
   autoplay: true,
   speed: 4000,
-  autoplaySpeed: 9000,
+  autoplaySpeed: 5000,
 };

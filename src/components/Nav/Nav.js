@@ -8,6 +8,7 @@ import { GoSearch } from 'react-icons/go';
 import Cart from '../../pages/Cart/Cart';
 import { Route, Link } from 'react-router-dom';
 import './Nav.scss';
+import { API } from '../../config';
 
 export class Nav extends Component {
   constructor() {
@@ -42,7 +43,7 @@ export class Nav extends Component {
     const { Kakao } = window;
     Kakao.Auth.login({
       success: response => {
-        fetch('http://10.58.6.179:8000/users/kakao/signin', {
+        fetch(API.KakaoSignIn, {
           headers: {
             Authorization: response.access_token,
           },

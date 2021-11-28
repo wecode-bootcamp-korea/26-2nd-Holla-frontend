@@ -4,6 +4,7 @@ import { FaStar } from 'react-icons/fa';
 import { DetailNewModal } from './DetailNewModal/DetailNewModal';
 import { DetailIntro } from './DetailIntro/DetailIntro';
 import { DetailReviewStar } from './DetailReviewStar/DetailReviewStar';
+import { API } from '../../config';
 import './DetailPage.scss';
 import ViewMore from './ViewMore/ViewMore';
 import DetailComment from './DetailComment/DetailComment';
@@ -46,7 +47,7 @@ export class DetailPage extends Component {
 
   goToCart = () => {
     const { history } = this.props;
-    fetch('http://10.58.6.179:8000/orders', {
+    fetch(API.cart, {
       method: 'POST',
       headers: { Authorization: localStorage.getItem('access_token') },
       body: JSON.stringify({ product_id: this.props.match.params.id }),
@@ -61,7 +62,7 @@ export class DetailPage extends Component {
 
   componentDidMount() {
     const id = this.props.match.params.id;
-    fetch(`http://10.58.6.179:8000/products/${id}`)
+    fetch(API.products + '/' + id)
       .then(res => res.json())
       .then(res => {
         this.setState({
@@ -69,7 +70,7 @@ export class DetailPage extends Component {
         });
       });
 
-    fetch(`http://10.58.6.179:8000/reviews/${id}`)
+    fetch(API.reviews + '/' + id)
       .then(res => res.json())
       .then(res => {
         this.setState({
@@ -98,13 +99,13 @@ export class DetailPage extends Component {
 
   addComment = e => {
     e.preventDefault();
-    const { comments, commentInput, clickStar, isAdded } = this.state;
-
-    fetch(`http://10.58.6.179:8000/reviews/${this.props.match.params.id}`, {
+    const { comments, commentInput, clickStar } = this.state;
+    const id = this.props.match.params.id;
+    fetch(API.reviews + '/' + id, {
       method: 'POST',
       headers: { Authorization: localStorage.getItem('access_token') },
       body: JSON.stringify({
-        product_id: this.props.match.params.id,
+        product_id: id,
         rating: clickStar,
         text: commentInput,
       }),
@@ -112,7 +113,7 @@ export class DetailPage extends Component {
       .then(res => res.json())
       .then(result => {
         this.setState({
-          comments: [commentInput, ...comments],
+          comments: [result, ...comments],
           commentInput: '',
           isAdded: true,
         });
@@ -120,8 +121,9 @@ export class DetailPage extends Component {
       });
   };
 
-  deleteCommentButton = id => {
-    fetch(`http://10.58.6.179:8000/reviews/${this.props.match.params.id}`, {
+  deleteCommentButton = () => {
+    const id = this.props.match.params.id;
+    fetch(API.reviews + '/' + id, {
       method: 'DELETE',
       headers: { Authorization: localStorage.getItem('access_token') },
     })
